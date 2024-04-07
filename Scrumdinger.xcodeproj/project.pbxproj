@@ -28,6 +28,7 @@
 		1F0280212BC324D700898901 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0280202BC324D700898901 /* MeetingFooterView.swift */; };
 		1F0280232BC328E900898901 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0280222BC328E900898901 /* NewScrumSheet.swift */; };
 		1F0280252BC32BF300898901 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0280242BC32BF300898901 /* History.swift */; };
+		1F0280272BC3339600898901 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0280262BC3339600898901 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		1F0280202BC324D700898901 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		1F0280222BC328E900898901 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 		1F0280242BC32BF300898901 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		1F0280262BC3339600898901 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		1F027FFE2BC2C5E700898901 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1F0280262BC3339600898901 /* ScrumStore.swift */,
 				1F02801E2BC3221C00898901 /* AVPlayer+Ding.swift */,
 				1F02801C2BC3221300898901 /* ScrumTimer.swift */,
 				1F027FFF2BC2C5F300898901 /* Theme.swift */,
@@ -219,6 +222,7 @@
 				1F02801D2BC3221300898901 /* ScrumTimer.swift in Sources */,
 				1F0280022BC2C63500898901 /* DailyScrum.swift in Sources */,
 				1F02801F2BC3221C00898901 /* AVPlayer+Ding.swift in Sources */,
+				1F0280272BC3339600898901 /* ScrumStore.swift in Sources */,
 				1F0280212BC324D700898901 /* MeetingFooterView.swift in Sources */,
 				1F02800A2BC2D98800898901 /* DetailView.swift in Sources */,
 				1F0280192BC31FC800898901 /* MeetingHeaderView.swift in Sources */,
