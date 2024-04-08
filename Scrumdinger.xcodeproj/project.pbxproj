@@ -33,6 +33,8 @@
 		1FC71C192BC3B6BE007BEEC1 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC71C182BC3B6BE007BEEC1 /* ErrorView.swift */; };
 		1FC71C1B2BC440D1007BEEC1 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC71C1A2BC440D1007BEEC1 /* MeetingTimerView.swift */; };
 		1FC71C1D2BC4426D007BEEC1 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC71C1C2BC4426D007BEEC1 /* SpeakerArc.swift */; };
+		1FC71C1F2BC44CAF007BEEC1 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC71C1E2BC44CAF007BEEC1 /* SpeechRecognizer.swift */; };
+		1FC71C212BC4500E007BEEC1 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC71C202BC4500E007BEEC1 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		1FC71C182BC3B6BE007BEEC1 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		1FC71C1A2BC440D1007BEEC1 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		1FC71C1C2BC4426D007BEEC1 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
+		1FC71C1E2BC44CAF007BEEC1 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		1FC71C202BC4500E007BEEC1 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 		1F027FFE2BC2C5E700898901 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1FC71C1E2BC44CAF007BEEC1 /* SpeechRecognizer.swift */,
 				1F0280262BC3339600898901 /* ScrumStore.swift */,
 				1F02801E2BC3221C00898901 /* AVPlayer+Ding.swift */,
 				1F02801C2BC3221300898901 /* ScrumTimer.swift */,
@@ -145,6 +150,7 @@
 				1FC71C182BC3B6BE007BEEC1 /* ErrorView.swift */,
 				1FC71C1A2BC440D1007BEEC1 /* MeetingTimerView.swift */,
 				1FC71C1C2BC4426D007BEEC1 /* SpeakerArc.swift */,
+				1FC71C202BC4500E007BEEC1 /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				1FC71C1D2BC4426D007BEEC1 /* SpeakerArc.swift in Sources */,
 				1FC71C192BC3B6BE007BEEC1 /* ErrorView.swift in Sources */,
 				1F0280022BC2C63500898901 /* DailyScrum.swift in Sources */,
+				1FC71C212BC4500E007BEEC1 /* HistoryView.swift in Sources */,
 				1FC71C1B2BC440D1007BEEC1 /* MeetingTimerView.swift in Sources */,
 				1F02801F2BC3221C00898901 /* AVPlayer+Ding.swift in Sources */,
 				1F0280272BC3339600898901 /* ScrumStore.swift in Sources */,
@@ -245,6 +252,7 @@
 				1F0280232BC328E900898901 /* NewScrumSheet.swift in Sources */,
 				1F02800C2BC2F1B800898901 /* DetailEditView.swift in Sources */,
 				1F0280062BC2CB8300898901 /* TrailingIconLabelStyle.swift in Sources */,
+				1FC71C1F2BC44CAF007BEEC1 /* SpeechRecognizer.swift in Sources */,
 				1F0280002BC2C5F300898901 /* Theme.swift in Sources */,
 				1F0280082BC2CF1300898901 /* ScrumsView.swift in Sources */,
 				1F027FF32BC2C1FD00898901 /* MeetingView.swift in Sources */,
@@ -387,6 +395,8 @@
 				DEVELOPMENT_TEAM = 67Q5VK8T9L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Звук записывается для расшифровки собрания. Аудиозаписи удаляются после расшифровки";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Вы можете просмотреть текстовую транскрипцию вашей встречи в приложении";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -417,6 +427,8 @@
 				DEVELOPMENT_TEAM = 67Q5VK8T9L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Звук записывается для расшифровки собрания. Аудиозаписи удаляются после расшифровки";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Вы можете просмотреть текстовую транскрипцию вашей встречи в приложении";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
